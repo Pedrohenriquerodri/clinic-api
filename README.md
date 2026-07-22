@@ -126,5 +126,5 @@ Os testes cobrem as principais regras de negócio, como validação de CPF dupli
 
 ## 👤 Autor
 
-Desenvolvido por [Pedro Henrique Rodrigues Pereira] — estudante de Engenharia de Software.
+Desenvolvido por Pedro Henrique Rodrigues Pereira — estudante de Engenharia de Software.
 [https://www.linkedin.com/in/pedro-henrique-rodrigues-pereira-b59a2a387/?skipRedirect=true] · [https://github.com/Pedrohenriquerodri]
