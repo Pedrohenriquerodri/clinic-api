@@ -1,10 +1,10 @@
-# 🏥 Clinic API — Sistema de Gestão Médica
+#  Clinic API — Sistema de Gestão Médica
 
 API REST para gestão de clínicas médicas, cobrindo todo o fluxo de atendimento: cadastro de pacientes, cadastro de profissionais, escala diária de médicos e agendamento de consultas.
 
 Projeto desenvolvido como parte do meu portfólio como estudante de Engenharia de Software, com foco em boas práticas de backend: arquitetura em camadas, autenticação via JWT, validações, tratamento de erros e testes automatizados.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - **Autenticação e autorização** com JWT (perfis: `ADMIN`, `DOCTOR`, `RECEPTIONIST`)
 - **Cadastro de pacientes** (CRUD completo)
@@ -17,7 +17,7 @@ Projeto desenvolvido como parte do meu portfólio como estudante de Engenharia d
 - **Atualização de status de consulta** (agendada, confirmada, cancelada, concluída, faltou)
 - **Documentação interativa** via Swagger/OpenAPI
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - Java 17
 - Spring Boot 3 (Web, Data JPA, Security, Validation)
@@ -28,7 +28,7 @@ Projeto desenvolvido como parte do meu portfólio como estudante de Engenharia d
 - Docker & Docker Compose
 - Swagger / OpenAPI
 
-## 📁 Arquitetura
+##  Arquitetura
 
 O projeto segue uma arquitetura em camadas:
 
@@ -42,7 +42,7 @@ security    → autenticação JWT
 exception   → tratamento centralizado de erros
 ```
 
-## 🚀 Como rodar o projeto
+##  Como rodar o projeto
 
 ### Opção 1 — Local com H2 (mais rápido, sem instalar nada)
 
@@ -72,7 +72,7 @@ Após subir a aplicação, acesse:
 http://localhost:8080/swagger-ui.html
 ```
 
-## 📌 Principais endpoints
+##  Principais endpoints
 
 | Método | Endpoint                          | Descrição                                  |
 |--------|------------------------------------|---------------------------------------------|
@@ -109,7 +109,7 @@ curl -X POST http://localhost:8080/api/doctors \
   -d '{"fullName":"Dra. Ana Costa","crm":"12345-SP","specialty":"Clinico Geral","phone":"11999999999","email":"ana@clinic.com"}'
 ```
 
-## ✅ Testes
+##  Testes
 
 ```bash
 mvn test
@@ -117,7 +117,7 @@ mvn test
 
 Os testes cobrem as principais regras de negócio, como validação de CPF duplicado e verificação de disponibilidade de horário do profissional.
 
-## 🗺️ Próximos passos (roadmap)
+##  Próximos passos (roadmap)
 
 - [ ] Paginação e filtros nos endpoints de listagem
 - [ ] Notificação por e-mail ao paciente ao agendar/cancelar consulta
